@@ -19,7 +19,8 @@ class App < Sinatra::Base
   end
 
   get "/multiply/:num1/:num2"
-    @product = params[:num1 + :num2]
+    @num1 = params[:num1]
+    "#{num1}"
   # Code your final two routes here:
 
 end
